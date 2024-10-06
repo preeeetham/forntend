@@ -1,5 +1,5 @@
 import axios from "axios"
 const instance = axios.create({
-    baseURL:"https://react-production-5346.up.railway.app"
+    baseURL:"http://localhost:8000/api",
 })
 export default instance
